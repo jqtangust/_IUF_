@@ -25,7 +25,7 @@
 
 
   <title>Learning to Remove Wrinkled Transparent Film with Polarized Prior</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">-->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -89,7 +89,7 @@
                         <a href="https://arxiv.org/abs/2403.04368" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
+                          <i class="ai ai-arxiv"></i>
                         </span>
                         <span>Paper</span>
                       </a>
@@ -118,7 +118,39 @@
                 </span>
 
                 <!-- Poster PDF link -->
-                <span class="link-block">
+				<span class="link-block">
+                    <a href="https://paperswithcode.com/paper/learning-to-remove-wrinkled-transparent-film" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>PapersWithCode</span>
+                  </a>
+                </span>
+                
+			  <br>
+			  
+			  <span class="link-block">
+                    <a href="https://paperswithcode.com/dataset/polarized-film-removal-dataset" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+				
+				<span class="link-block">
+                    <a href="https://paperswithcode.com/task/film-removal" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Task</span>
+                  </a>
+                </span>
+				
+				<span class="link-block">
                   <a href="static/pdfs/cvpr24_poster.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -127,6 +159,8 @@
                   <span>Poster</span>
                 </a>
               </span>
+				
+				
 
                 <!-- ArXiv abstract Link -->
                 <!-- <span class="link-block">
@@ -151,11 +185,15 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/problems.jpg" alt="Banner Image" style="width: 100%; height: auto;"><br>
-	  <br>
+		<video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/642ce7bda496c9a9b407ff585b14c4db.mp4"
+        type="video/mp4">
+      </video>
       <h2 class="subtitle has-text-centered">
-        A new problem: Wrinkle transparent film removal with polarized prior.
+        
       </h2>
+	  
     </div>
   </div>
 </section>
@@ -177,60 +215,6 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-<!-- Physical Model -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Physical Model</h2>
-	  <br>
-	  <div>
-      <img src="static/images/FilmModel.jpg" alt="Banner Image" style="width: 100%; height: auto;"><br><br>
-	  </div>
-	  <h2 class="subtitle has-text-centered">
-        Wrinkled Transparent Film Model.
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End physical model -->
-
-<!-- Physical Model -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Our Framework</h2>
-	  <br>
-	  <div>
-      <img src="static/images/method.jpg" alt="Banner Image" style="width: 100%; height: auto;"><br><br>
-	  </div>
-	  <h2 class="subtitle has-text-centered">
-        Our overall framework. It contains Angle Estimation Net (A-Net), Polarization-based Location Model (PLM) and Reconstruction Network (R-Net).
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End physical model -->
-
-
-<!-- Paper poster -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/cvpr24_poster.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
 
 
 <!--BibTex citation -->
