@@ -180,40 +180,44 @@
   </div>
 </section>
 
+<section class="hero is-small">
+	<div class="hero-body">
+    <div class="container">
+
+      <h2 style="font-size: 18px;"><strong>
+        In this work, we study a new problem, Film Removal(FR), which attempts to remove the interference of wrinkled transparent films and reconstruct the original information under films for industrial recognition systems. 
+      </h2>
+        
+      </div>
+    </div>
+</section>
+
 
 <!-- Teaser image-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
+<section class="hero is-small is-light">
     <div class="hero-body">
-		<video poster="" id="tree" autoplay controls muted loop height="100%">
+		<div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video</h2>
+	  <br>
+	  <div  style="text-align: center;">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
         <source src="static/videos/642ce7bda496c9a9b407ff585b14c4db.mp4"
         type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
-        
-      </h2>
+	  </div>
 	  
     </div>
-  </div>
+	
+	
+		
+	  
+    </div>
 </section>
 <!-- End teaser image -->
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            In this paper, we study a new problem, Film Removal(FR), which attempts to remove the interference of wrinkled transparent films and reconstruct the original information under films for industrial recognition systems. We first physically model the imaging of industrial materials covered by the film. Considering the specular highlight from the film can be effectively recorded by the polarized camera, we build a practical dataset with polarization information containing paired data with and without transparent film. We aim to remove interference from the film (specular highlights and other degradations) with an end-to-end framework. To locate the specular highlight, we use an angle estimation network to optimize the polarization angle with the minimized specular highlight. The image with minimized specular highlight is set as a prior for supporting the reconstruction network. Based on the prior and the polarized images, the reconstruction network can decouple all degradations from the film. Extensive experiments show that our framework achieves SOTA performance in both image reconstruction and industrial downstream tasks.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 <!-- End paper abstract -->
 
 
